@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Supercars</title>
+    
+         
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="javascript/jquery3.5.1.js"></script>
+  </head>
+  
+
+  <body>
+    <!-- This is the header which contains the heading and the menu -->
+    <header>
+     
+    </header>
+
+    <div class="loader-wrapper">
+      <span class="loader">
+        <span class="loader-inner"></span>
+      </span>
+    </div>
+
+    <!-- This has the animated arrow -->
+    <div class="container">
+      <div class="centered anim-typewriter">Supercars</div>
+      <div class="container-overlay">
+        <span class="menu-icon" id="fadeIn" onclick="fadeIn()">&#9776;</span>
+        <section id="arrow" class="animated arrow">
+          <a href="#three"><span></span></a>
+        </section>
+      </div>
+    </div>
+
+    <div class="menu-container" id="navbar">
+      <span class="closebtn" id="fadeOut" onclick="fadeOut()">&times;</span>
+      <div class="menu-content">
+        <a href="#five">Contact</a>
+        <a href="#four">Gallery</a>
+        <a href="#three">About</a>
+      </div>
+    </div>
+
+
+
+    <!-- This is the about me section which contains the content -->
+    <section id="three">
+      <h2 data-aos="fade-up">ABOUT MYSELF</h2>
+      <p data-aos="fade-up">Hello! My name is Viren and I graduated university in 2018 from De Montfort University Leicester.</p><br>
+
+      <p data-aos="fade-up">My hobbies are drawing, photography, reading books and I have made this website to show some of my photography of cars.  </p>
+    </section>
+
+    <!-- This has the four images which upon hovering text appears -->
+    <section id="four">
+      <div id="my-class">
+        <figure>
+          <img src="images/image2.jpg" alt="Porsche 911 Turbo"/>
+          <figcaption>
+            <h4>Porsche</h4>
+          </figcaption>
+        </figure>
+	    <figure>
+          <img src="images/image3.jpg" alt="Porsche 911"/>
+          <figcaption>
+            <h4>Porsche</h4>
+          </figcaption>
+        </figure>
+	    <figure>
+          <img src="images/image4.jpg" alt="BMW i8"/>
+          <figcaption>
+            <h4>BMW</h4>
+          </figcaption>
+        </figure>
+	    <figure>
+          <img src="images/image5.jpg" alt="Lamborghini Aventador"/>
+          <figcaption>
+            <h4>Lamborghini</h4>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+    <section id="brands">
+      <h3 data-aos="fade-up">Car Brands</h3>
+
+      <div id="my-class2">
+        <div id="favcar">
+          <a href="https://www.bmw.com/">
+            <img src="images/bmw.png" alt="bmw"/>
+          </a>
+        </div>
+
+        <div id="favcar">
+          <a href="https://www.lamborghini.com/en-en">
+          <img src="images/lambo.png" alt="lamborghini"/>
+          </a>
+        </div>
+
+        <div id="favcar">
+          <a href="https://www.porsche.com/uk/">
+          <img src="images/porsche.png" alt="porsche"/>
+          </a>
+        </div>
+
+        <div id="favcar">
+          <a href="https://www.ferrari.com/">
+          <img src="images/ferrari.png" alt="ferrari"/>
+          </a>
+        </div>
+
+        <div id="favcar">
+          <a href="https://www.mercedes-benz.co.uk/">
+          <img src="images/merc.png" alt="mercedes"/>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="animation">
+      <div class="night">
+        <div class="surface"></div>
+          <div class="car">
+            <img src="./images/lambo_animation.png">
+          </div>
+      </div>
+      <div class="animationDescription"><p> Press 'Enter' key to start moving car and 'W' key to change car. </p></div>
+    </section>
+
+
+
+
+    <!-- This is the footer which contains the Sitemap and the Map -->
+    <footer id="five">
+      <div id="cont1">
+        <h2>Location: Coalville, Leicestershire</h2>
+      </div>
+      <div id="cont2">
+        <ul class="footlink">
+          <li>
+            <a href="#three"><p>About</p></a>
+          </li>
+          <li>
+            <a href="#four"><p>Gallery</p></a>
+          </li>
+          <li>
+            <a href="#one"><p>Home</p></a>
+          </li>
+        </ul>
+      </div>
+    </footer>  
+
+    <!-- This is the javascript file which contains the code for the resizable menu -->
+    <script src="javascript/javascript.js"></script>
+    <script src="javascript/aos.js"></script>
+    <script src="javascript/animate.js"></script>
+    
+
+    <script> 
+      AOS.init({
+        offset: 200,
+        duration: 1000
+      });
+    </script>
+
+
+  </body>
+</html>
